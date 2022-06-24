@@ -63,7 +63,7 @@ void setup() {
   digitalWrite(pinLED, 0);
 }
 
-enum STATE { operating, store, startservo2, updatingservo2, startservo1, updatingservo1 } state;
+enum STATE { operating, startservo1, updatingservo1, startservo2, updatingservo2, store } state;
 
 long millisNow;
 
